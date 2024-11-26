@@ -25,26 +25,23 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
-            Fedezze fel a&nbsp;
-            <span className="text-n-5">Széchenyi István Egyetem</span> új&nbsp;
+            <span className="text-n-3/90">Üdvözöllek, </span>
             <span className="inline-block relative text-n-4">
-              UniSupport
+              Kiss Csongor
               <img
                 src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
+                className="absolute top-full left-0 w-full xl:-mt-[12.6px]"
                 width={624}
                 height={28}
                 alt="Curve"
               />
             </span>
-            &nbsp;IT helpdesk rendszerét
+            &nbsp;vagyok, és nagy örömmel köszöntelek az oldalamon!
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Segítségre van szükséged? Egyszerűsítsd az IT problémáid kezelését
-            és kövesd nyomon a folyamatokat az UniSupport átlátható és könnyen
-            használható rendszerével.
+          Itt betekintést nyerhetsz projektjeimbe, gondolataimba, és jobban megismerhetsz. Remélem, hogy inspiráló és érdekes tartalmakat találsz majd az oldalamon, és jól fogod érezni magad felfedezés közben.
           </p>
-          <Button href="/signup" white>
+          <Button href="/blog" white>
             Kezdjünk bele
           </Button>
         </div>

@@ -94,6 +94,7 @@ import sze_allo_logo from "./own/sze_allo_logo.png";
 import sze_fekvo_logo from "./own/sze_fekvo_logo.png";
 import ddc_logo from "./own/ddc_logo.png";
 import sze_logo from "./own/sze_logo.png";
+import kcs_logo from "./own/kcs_logo.png";
 
 export {
   brainwave,
@@ -181,4 +182,5 @@ export {
   sze_fekvo_logo,
   ddc_logo,
   sze_logo,
+  kcs_logo,
 };

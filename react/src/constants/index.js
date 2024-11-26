@@ -50,6 +50,7 @@ import {
   ddc_logo,
   sze_logo,
   sze_fekvo_logo,
+  kcs_logo,
 } from "../assets";
 
 export const navigation = [
@@ -60,29 +61,34 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Jegy felvétele",
-    url: "/new-ticket",
+    title: "Blog",
+    url: "/",
   },
   {
     id: "2",
-    title: "Jegyeim",
-    url: "/my-tickets",
+    title: "IT",
+    url: "/",
   },
   {
     id: "3",
-    title: "FAQ",
-    url: "/faq",
+    title: "Verseim",
+    url: "/",
   },
   {
     id: "4",
-    title: "Új fiók",
-    url: "/signup",
-    onlyMobile: true,
+    title: "Rólam",
+    url: "/",
   },
   {
     id: "5",
-    title: "Bejelentkezés",
-    url: "/login",
+    title: "Kapcsolat",
+    url: "/",
+    onlyMobile: true,
+  },
+  {
+    id: "6",
+    title: "Hírlevél",
+    url: "/",
     onlyMobile: true,
   },
 ];
